@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-python-web-hw-7"
+version = "0.1.0"
+description = ""
+authors = ["Iryna Dachuk <iradachuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_hw_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^18.2.0"
+sqlalchemy = "^2.0.7"
+alembic = "^1.10.2"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
